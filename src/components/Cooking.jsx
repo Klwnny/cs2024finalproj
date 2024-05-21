@@ -9,7 +9,7 @@ function Cooking() {
 
   return (
     <div className="uk-margin-xlarge-left uk-margin-xlarge-right">
-      <h1>Cooking Collection</h1>
+      <h1 className="App">Cooking Collection</h1>
       <input
         className="uk-input"
         type="text"

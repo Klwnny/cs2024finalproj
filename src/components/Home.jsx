@@ -10,13 +10,13 @@ function Home() {
   
     return (
       <div className="App">
-        <h1>Collection Information</h1>
+        <h1>Stardew Valley Collections</h1>
   
-        <button className="uk-button uk-button-default"><Link to="/Artifacts">Artifacts</Link></button>
-        <button className="uk-button uk-button-default"><Link to="/Cooking">Cooking</Link></button>
-        <button className="uk-button uk-button-default"><Link to="/Fish">Fish</Link></button>
-        <button className="uk-button uk-button-default"><Link to="/Minerals">Minerals</Link></button>
-        <button className="uk-button uk-button-default"><Link to="/Items">Items</Link></button>
+        <Link to="/Artifacts"><button className="uk-button uk-button-default">Artifacts</button></Link>
+        <Link to="/Cooking"><button className="uk-button uk-button-default">Cooking</button></Link>
+        <Link to="/Fish"><button className="uk-button uk-button-default">Fish</button></Link>
+        <Link to="/Minerals"><button className="uk-button uk-button-default">Minerals</button></Link>
+        <Link to="/Items"><button className="uk-button uk-button-default">Items</button></Link>
         <hr className="uk-divider-icon"/>
         <div className="uk-child-width-1-5@s uk-grid">
           {filteredProducts.map((counter) => (

@@ -1,3 +1,12 @@
 .App {
   text-align: center;
+  /* font-family: stardew_valleyregular; */
+}
+@font-face {
+  font-family: 'stardew_valleyregular';
+  src: url('stardew_valley-webfont.woff2') format('woff2'),
+       url('stardew_valley-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }

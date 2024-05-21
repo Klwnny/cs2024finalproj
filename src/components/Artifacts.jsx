@@ -9,7 +9,7 @@ function Artifact() {
   );
 
   return (
-    <div className="App">
+    <div className="uk-margin-xlarge-left uk-margin-xlarge-right App">
       <h1>Artifacts Collection</h1>
       <input
         className="uk-input"
@@ -25,7 +25,7 @@ function Artifact() {
         <div className="uk-card uk-card-default">
             <div className="uk-card-body">
                 <h3 className="uk-card-title">{Artifacts.Name}</h3>
-                <div class="uk-card-badge uk-label">ID: {Artifacts.ID}</div>
+                <div className="uk-card-badge uk-label">ID: {Artifacts.ID}</div>
                 <p>{Artifacts.Desc}</p>
             </div>
             <div className="uk-card-media-bottom">

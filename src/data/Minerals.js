@@ -1,4 +1,4 @@
-export const Minerals = [
+export const Mineralss = [
     {
         "Desc": "A precious stone with a brilliant green color",
         "ID": 1,

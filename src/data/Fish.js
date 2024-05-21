@@ -1,4 +1,4 @@
-export const Fish = [
+export const Fishes = [
     {
         "Desc": "Inflates when threatened.",
         "ID": 1,

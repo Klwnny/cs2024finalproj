@@ -21,7 +21,7 @@ function Items() {
       {filteredProducts.map((Item) => (
         <table
           className="uk-table uk-table-striped uk-table-small uk-table-hover uk-table-justify"
-          key={Item.id}
+          key={Item.ID}
         >
           <thead>
             <tr>
@@ -32,9 +32,7 @@ function Items() {
             <tr>
               <td>{Item.Name}</td>
             </tr>
-            <tr>
               <img src={`${Item.Picture}`} alt={`${Item.Name}`} />
-            </tr>
             <tr>
               <td>{Item.Desc}</td>
             </tr>
